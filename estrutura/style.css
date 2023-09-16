@@ -1,0 +1,16 @@
+p, [class^="col"], [class*=" col"]{
+	padding: 0;
+}
+
+.banner{
+	height: 22rem;
+}
+
+.opcoes{
+	height: 12rem;
+}
+
+.cardapio{
+	height: 10rem;
+	background: red;
+}

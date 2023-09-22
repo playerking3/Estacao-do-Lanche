@@ -1,4 +1,5 @@
 p, [class^="col"], [class*=" col"]{
+	margin: 0;
 	padding: 0;
 }
 
@@ -13,4 +14,27 @@ p, [class^="col"], [class*=" col"]{
 .cardapio{
 	height: 10rem;
 	background: red;
+}
+
+.form{
+	background-color: red;
+	height: 22rem;
+}
+
+.segue{
+	background-color: green;
+	height: 23rem;
+}
+
+.foto{
+	background-color: gray;
+}
+
+.foto-row{
+	height: 11rem;
+}
+
+.rodape{
+	background-color: white;
+	height: 5rem;
 }

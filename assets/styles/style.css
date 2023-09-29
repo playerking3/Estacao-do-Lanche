@@ -86,3 +86,17 @@ iframe{
 form{
     width: 80%;
 }
+
+.foto img{
+    width: 100%;
+}
+
+.segueTitle{
+    font-size: 70pt;
+    text-align: center;
+    color: #FFD704;
+}
+
+.social{
+    color: white;
+}

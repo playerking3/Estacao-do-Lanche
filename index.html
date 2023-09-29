@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Estação do lanche</title>
 	<script src="https://kit.fontawesome.com/099d701c5d.js" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/e230e60edc.js" crossorigin="anonymous"></script>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 </head>
+
 <body>
 	<header class="container-fluid header">
 		<div class="row p-2">
-			<div class="col d-flex align-items-center justify-content-center">
-				<i class="fa-solid fa-burger logo px-2"></i>
-				<h2>Estação do Lanche</h2> 
-			</div>
-			<div class="col d-flex align-items-center justify-content-center">
-				<nav>
-					<a href="" class="link px-2 ">Início</a>
-					<a href="" class="link px-2 ">Produtos</a>
-					<a href="" class="link px-2 ">Contato</a>
-					<a href="" class="whatzap rounded-pill p-1 px-2"><i class="fa-brands fa-whatsapp"></i> Faça seu Pedido</a>
-				</nav>
-			</div>
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<p><img src="img/Vector (1).svg" alt=""> Estação do lanche</p>
+					</a>
+
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">Início</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">Produtos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">Contatos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">
+									<button class="btn btn-success" style="border-radius: 20px;"><i
+											class="fa-brands fa-whatsapp"
+											style="color: #ffffff; margin-right: 8px;"></i>Fale
+										Conosco</button>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
 	</header>
+
 	<main class="container-fluid">
 		<section class="row">
 			<div class="col banner d-flex align-items-center justify-content-center flex-column">
@@ -35,118 +64,145 @@
 				<a href="" class="btn btn-danger rounded-pill m-4">VER MAIS <span>PRODUTOS</span></a>
 			</div>
 		</section>
-		<section class="row pt-5 pb-5 gap-1 opcoes">
-			<div class="col d-flex align-items-center justify-content-center">
+
+		<section class="row pt-5 pb-5 opcoes gap-sm-2 gap-md-0">
+			<div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
 				<div class="imagem p-5 rounded-4" id="burger">
 					<h3>Hambúrguer</h3>
-					<p>Do tamanho da sua fome</p>	
+					<p>Do tamanho da sua fome</p>
 				</div>
-				
+
 			</div>
-			<div class="col d-flex align-items-center justify-content-center">
+			<div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
 				<div class="imagem p-5 rounded-4 text-end" id="combo">
 					<h3>Combos</h3>
-					<p>Para toda fámilia</p>	
+					<p>Para toda fámilia</p>
 				</div>
 			</div>
 		</section>
+
 		<section class="row pt-3 pb-3 cinza">
 			<div class="col-md-4 d-flex align-items-center justify-content-center">
-				<img src="assets/img/burger-2.jpeg" alt="Smash burger fenomenal" class="rounded-4 cardapioimg img-fluid">
+				<img src="assets/img/burger-2.jpeg" alt="Smash burger fenomenal"
+					class="rounded-4 cardapioimg img-fluid">
 			</div>
 			<div class="col-md-5 px-1 d-flex justify-content-center flex-column">
-				<h3 class="nomeBurger">Smash Burger Fenomenal</h3>
-				<p class="desc">Pão de gergilin, hamburguer 180g e muito queijo cheddar.</p>
-				<h3 class="preco pt-4">R$ 18,90</h3>
+				<h3 class="nomeBurger text-sm-center text-md-start">Smash Burger Fenomenal</h3>
+				<p class="desc text-sm-center text-md-start">Pão de gergilin, hamburguer 180g e muito queijo cheddar.
+				</p>
+				<h3 class="preco pt-4 text-sm-center text-md-start">R$ 18,90</h3>
 			</div>
 			<div class="col-md-3 d-flex align-items-center justify-content-center">
 				<a href="" class="btn btn-danger rounded-pill m-4">EU QUERO!</a>
 			</div>
 		</section>
+
 		<section class="row pt-3 pb-3 bege">
 			<div class="col-md-4 d-flex align-items-center justify-content-center">
-				<img src="assets/img/burguers1.jpeg" alt="Smash burger fenomenal" class="rounded-4 cardapioimg img-fluid">
+				<img src="assets/img/burguers1.jpeg" alt="Smash burger fenomenal"
+					class="rounded-4 cardapioimg img-fluid">
 			</div>
 			<div class="col-md-5 px-1 d-flex justify-content-center flex-column">
-				<h3 class="nomeBurger">Extremo picante burguer</h3>
-				<p class="desc">Pão de gergilin, hamburguer 180g e muito queijo cheddar, salada e molho especial de pimenta.</p>
-				<h3 class="preco pt-4">R$ 24,90</h3>
+				<h3 class="nomeBurger text-sm-center text-md-start">Extremo picante burguer</h3>
+				<p class="desc text-sm-center text-md-start">Pão de gergilin, hamburguer 180g e muito queijo cheddar,
+					salada e molho especial de pimenta.</p>
+				<h3 class="preco pt-4 text-sm-center text-md-start ">R$ 24,90</h3>
 			</div>
 			<div class="col-md-3 d-flex align-items-center justify-content-center">
 				<a href="" class="btn btn-danger rounded-pill m-4">EU QUERO!</a>
 			</div>
 		</section>
+
 		<section class="row pt-3 pb-3 cinza">
 			<div class="col-md-4 d-flex align-items-center justify-content-center">
 				<img src="assets/img/combo-2.jpeg" alt="Smash burger fenomenal" class="rounded-4 cardapioimg img-fluid">
 			</div>
 			<div class="col-md-5 px-1 d-flex justify-content-center flex-column">
-				<h3 class="nomeBurger">Combo Picles</h3>
-				<p class="desc">Pão de gergilin, hamburguer 180g e salada com picles. Acompanha Batata de 250g e Refrigerante de 350ml</p>
-				<h3 class="preco pt-4">R$ 39,90</h3>
+				<h3 class="nomeBurger text-sm-center text-md-start">Combo Picles</h3>
+				<p class="desc text-sm-center text-md-start">Pão de gergilin, hamburguer 180g e salada com picles.
+					Acompanha Batata de 250g e Refrigerante de 350ml</p>
+				<h3 class="preco pt-4 text-sm-center text-md-start">R$ 39,90</h3>
 			</div>
 			<div class="col-md-3 d-flex align-items-center justify-content-center">
 				<a href="" class="btn btn-danger rounded-pill m-4">EU QUERO!</a>
 			</div>
 		</section>
+
 		<section class="row pt-3 pb-3">
 			<div class="col-md-6 px-1 d-flex align-items-center justify-content-center">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.0413142848342!2d-50.152791886599424!3d-21.07099670240383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949625d99811d6c1%3A0x3fc62f047a8d49e0!2sHamburgueria%20Sabor%20Gourmet!5e0!3m2!1spt-BR!2sbr!4v1695390975265!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.0413142848342!2d-50.152791886599424!3d-21.07099670240383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949625d99811d6c1%3A0x3fc62f047a8d49e0!2sHamburgueria%20Sabor%20Gourmet!5e0!3m2!1spt-BR!2sbr!4v1695390975265!5m2!1spt-BR!2sbr"
+					style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			<div class="col-md-6 px-1 d-flex justify-content-center flex-column">
 				<h2 class="nomeBurger p-2">FALE CONOSCO</h2>
 				<form action="" class="">
 					<div class="form-floating m-2">
-						<input type="text" name="nome" id="floatingInput" class="form-control" required autocomplete="off" placeholder="Ex: Jose Antônio">
-						<label for="floatingInput">Informe seu nome</label>	
+						<input type="text" name="nome" id="floatingInput" class="form-control" required
+							autocomplete="off" placeholder="Ex: Jose Antônio">
+						<label for="floatingInput">Informe seu nome</label>
 					</div>
 					<div class="form-floating m-2">
-						<input type="tel" name="telefone" id="floatingInput2" class="form-control" required autocomplete="off" placeholder="Ex: (18) 99696-7878">
-						<label for="floatingInput">Telefone para contato</label>	
+						<input type="tel" name="telefone" id="floatingInput2" class="form-control" required
+							autocomplete="off" placeholder="Ex: (18) 99696-7878">
+						<label for="floatingInput">Telefone para contato</label>
 					</div>
 					<div class="form-floating m-2">
-						<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px;resize: none;"></textarea>
+						<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+							style="height: 100px;resize: none;"></textarea>
 						<label for="floatingTextarea2">Sua mensagem</label>
 					</div>
 				</form>
 			</div>
 		</section>
+
 		<section class="row pt-3 pb-3" style="background: red;">
-			<div class="col-md-4 segue">
-				<p class=""></p>
+			<div class="col-md-4">
+				<h1 class="p4 segueTitle">SEGUE A GENTE</h1>
+				<div class="social d-flex justify-content-center flex-column align-items-center mt-3">
+					<p><i class="fa-brands fa-instagram"></i>estacaolanche</p>
+					<p><i class="fa-brands fa-youtube"></i>estacaolanchetv</p>
+					<p><i class="fa-brands fa-tiktok"></i>estacaolanche</p>
+				</div>
 			</div>
-			<div class="col-md-8">
-				<div class="row foto-row gap-1 m-1">
-					<div class="col foto">
-						<p class=""></p>
+			<div class="col-md-8 my-2">
+				<div class="row" style="width: 100%;">
+					<div class="col-md-6 foto">
+						<img src="assets/img/salao1.jpeg" alt="Local Estação do lanche">
 					</div>
-					<div class="col foto">
-						<p class=""></p>
+					<div class="col-md-6 foto">
+						<img src="assets/img/salao-2.jpeg" alt="Local Estação do lanche">
 					</div>
 				</div>
-				<div class="row foto-row gap-1 m-1">
-					<div class="col foto">
-						<p class=""></p>
+				<div class="row my-2" style="width: 100%;">
+					<div class="col-md-4 foto">
+						<img src="assets/img/salao-3.jpeg" alt="Local Estação do lanche">
 					</div>
-					<div class="col foto">
-						<p class=""></p>
+					<div class="col-md-4 foto">
+						<img src="assets/img/familia-2.jpeg" alt="Família feliz">
 					</div>
-					<div class="col foto">
-						<p class=""></p>
+					<div class="col-md-4 foto">
+						<img src="assets/img/familia1.jpeg" alt="Família feliz">
 					</div>
 				</div>
 			</div>
 		</section>
 	</main>
+
 	<footer class="container-fluid">
 		<div class="row p-2" style="background-color: yellow;">
-			<div class="col-md-4 px-1">
-				<p class="rodape"></p>
+			<div class="col-md-4 px-1 d-flex align-items-center justify-content-center">
+				<i class="fa-solid fa-burger logo px-2"></i>
+				<h2>Estação do Lanche</h2>
 			</div>
-			<div class="col-md-8 px-1">
-				<p class="rodape"></p>
+			<div
+				class="col-md-8 px-1 d-flex align-items-md-end align-items-sm-center justify-content-center flex-column">
+				<p>(18) 99123-1234 / (18) 3636-3636</p>
+				<p>Rua Lorem Ipsum Nº 123, Centro - Birigui / SP</p>
 			</div>
 		</div>
 	</footer>
 </body>
+
 </html>
